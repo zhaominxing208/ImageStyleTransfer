@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008CACCB217DA9390086EE6C /* STModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CACCA217DA9390086EE6C /* STModel.swift */; };
+		00BD998B2181AB38007112BA /* STCandy.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00BD99882181AB38007112BA /* STCandy.mlmodel */; };
+		00BD998C2181AB38007112BA /* STMosaic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00BD99892181AB38007112BA /* STMosaic.mlmodel */; };
+		00BD998D2181AB38007112BA /* STUdnie.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00BD998A2181AB38007112BA /* STUdnie.mlmodel */; };
+		00D65C9F21771590008ABC17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D65C9E21771590008ABC17 /* AppDelegate.swift */; };
+		00D65CA121771590008ABC17 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CA021771590008ABC17 /* EditorViewController.swift */; };
+		00D65CA621771590008ABC17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D65CA421771590008ABC17 /* Main.storyboard */; };
+		00D65CA821771591008ABC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D65CA721771591008ABC17 /* Assets.xcassets */; };
+		00D65CAB21771591008ABC17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D65CA921771591008ABC17 /* LaunchScreen.storyboard */; };
+		00D65CB321784128008ABC17 /* StyleTransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CB221784128008ABC17 /* StyleTransferManager.swift */; };
+		00D65CC821784552008ABC17 /* STShipwreckMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CC221784552008ABC17 /* STShipwreckMLModel.mlmodel */; };
+		00D65CC921784552008ABC17 /* STMuseMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CC321784552008ABC17 /* STMuseMLModel.mlmodel */; };
+		00D65CCA21784552008ABC17 /* STPrincessMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CC421784552008ABC17 /* STPrincessMLModel.mlmodel */; };
+		00D65CCB21784552008ABC17 /* STScreamMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CC521784552008ABC17 /* STScreamMLModel.mlmodel */; };
+		00D65CCC21784552008ABC17 /* STUdnieMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CC621784552008ABC17 /* STUdnieMLModel.mlmodel */; };
+		00D65CCD21784552008ABC17 /* STWaveMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CC721784552008ABC17 /* STWaveMLModel.mlmodel */; };
+		00D65CD021785E78008ABC17 /* UIImage+ML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CCF21785E78008ABC17 /* UIImage+ML.swift */; };
+		00D65CED21797EFC008ABC17 /* StyleTransferInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CEC21797EFC008ABC17 /* StyleTransferInput.swift */; };
+		00D65CF0217994F9008ABC17 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CEF217994F9008ABC17 /* UIImage+Resize.swift */; };
+		00D65CF22179B835008ABC17 /* STStarryNight.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CF12179B835008ABC17 /* STStarryNight.mlmodel */; };
+		00D65CF42179D909008ABC17 /* GaleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D65CF32179D909008ABC17 /* GaleryViewController.swift */; };
+		C8E8CF418F6B66CEF49BA6B7 /* Pods_ImageStyleTransor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFA49748DFC8D7E38BA108E /* Pods_ImageStyleTransor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008CACCA217DA9390086EE6C /* STModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STModel.swift; sourceTree = "<group>"; };
+		00BD99882181AB38007112BA /* STCandy.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STCandy.mlmodel; sourceTree = "<group>"; };
+		00BD99892181AB38007112BA /* STMosaic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STMosaic.mlmodel; sourceTree = "<group>"; };
+		00BD998A2181AB38007112BA /* STUdnie.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STUdnie.mlmodel; sourceTree = "<group>"; };
+		00D65C9B21771590008ABC17 /* ImageStyleTransor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageStyleTransor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D65C9E21771590008ABC17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00D65CA021771590008ABC17 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		00D65CA521771590008ABC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00D65CA721771591008ABC17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00D65CAA21771591008ABC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00D65CAC21771591008ABC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D65CB221784128008ABC17 /* StyleTransferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransferManager.swift; sourceTree = "<group>"; };
+		00D65CC221784552008ABC17 /* STShipwreckMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STShipwreckMLModel.mlmodel; sourceTree = "<group>"; };
+		00D65CC321784552008ABC17 /* STMuseMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STMuseMLModel.mlmodel; sourceTree = "<group>"; };
+		00D65CC421784552008ABC17 /* STPrincessMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STPrincessMLModel.mlmodel; sourceTree = "<group>"; };
+		00D65CC521784552008ABC17 /* STScreamMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STScreamMLModel.mlmodel; sourceTree = "<group>"; };
+		00D65CC621784552008ABC17 /* STUdnieMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STUdnieMLModel.mlmodel; sourceTree = "<group>"; };
+		00D65CC721784552008ABC17 /* STWaveMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STWaveMLModel.mlmodel; sourceTree = "<group>"; };
+		00D65CCF21785E78008ABC17 /* UIImage+ML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ML.swift"; sourceTree = "<group>"; };
+		00D65CEC21797EFC008ABC17 /* StyleTransferInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransferInput.swift; sourceTree = "<group>"; };
+		00D65CEF217994F9008ABC17 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		00D65CF12179B835008ABC17 /* STStarryNight.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = STStarryNight.mlmodel; sourceTree = "<group>"; };
+		00D65CF32179D909008ABC17 /* GaleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleryViewController.swift; sourceTree = "<group>"; };
+		39E479B551B3A4C9C0EEFCB6 /* Pods-ImageStyleTransor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageStyleTransor.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageStyleTransor/Pods-ImageStyleTransor.release.xcconfig"; sourceTree = "<group>"; };
+		6AFA49748DFC8D7E38BA108E /* Pods_ImageStyleTransor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageStyleTransor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE9B3B7A925D285E116D26C /* Pods-ImageStyleTransor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageStyleTransor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageStyleTransor/Pods-ImageStyleTransor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00D65C9821771590008ABC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E8CF418F6B66CEF49BA6B7 /* Pods_ImageStyleTransor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D65C9221771590008ABC17 = {
+			isa = PBXGroup;
+			children = (
+				00D65C9D21771590008ABC17 /* ImageStyleTransor */,
+				00D65C9C21771590008ABC17 /* Products */,
+				488A18598C76CA285C9E7939 /* Pods */,
+				A955B7FD4CA36AA591FF6A5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00D65C9C21771590008ABC17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00D65C9B21771590008ABC17 /* ImageStyleTransor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00D65C9D21771590008ABC17 /* ImageStyleTransor */ = {
+			isa = PBXGroup;
+			children = (
+				00D65CCE217845B8008ABC17 /* StyleTransfer */,
+				00D65C9E21771590008ABC17 /* AppDelegate.swift */,
+				00D65CA021771590008ABC17 /* EditorViewController.swift */,
+				00D65CF32179D909008ABC17 /* GaleryViewController.swift */,
+				00D65CA421771590008ABC17 /* Main.storyboard */,
+				00D65CA721771591008ABC17 /* Assets.xcassets */,
+				00D65CA921771591008ABC17 /* LaunchScreen.storyboard */,
+				00D65CAC21771591008ABC17 /* Info.plist */,
+			);
+			path = ImageStyleTransor;
+			sourceTree = "<group>";
+		};
+		00D65CC121784552008ABC17 /* STModel */ = {
+			isa = PBXGroup;
+			children = (
+				00BD99882181AB38007112BA /* STCandy.mlmodel */,
+				00BD99892181AB38007112BA /* STMosaic.mlmodel */,
+				00BD998A2181AB38007112BA /* STUdnie.mlmodel */,
+				00D65CF12179B835008ABC17 /* STStarryNight.mlmodel */,
+				00D65CC221784552008ABC17 /* STShipwreckMLModel.mlmodel */,
+				00D65CC321784552008ABC17 /* STMuseMLModel.mlmodel */,
+				00D65CC421784552008ABC17 /* STPrincessMLModel.mlmodel */,
+				00D65CC521784552008ABC17 /* STScreamMLModel.mlmodel */,
+				00D65CC621784552008ABC17 /* STUdnieMLModel.mlmodel */,
+				00D65CC721784552008ABC17 /* STWaveMLModel.mlmodel */,
+			);
+			path = STModel;
+			sourceTree = "<group>";
+		};
+		00D65CCE217845B8008ABC17 /* StyleTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				00D65CC121784552008ABC17 /* STModel */,
+				008CACCA217DA9390086EE6C /* STModel.swift */,
+				00D65CB221784128008ABC17 /* StyleTransferManager.swift */,
+				00D65CCF21785E78008ABC17 /* UIImage+ML.swift */,
+				00D65CEF217994F9008ABC17 /* UIImage+Resize.swift */,
+				00D65CEC21797EFC008ABC17 /* StyleTransferInput.swift */,
+			);
+			path = StyleTransfer;
+			sourceTree = "<group>";
+		};
+		488A18598C76CA285C9E7939 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBE9B3B7A925D285E116D26C /* Pods-ImageStyleTransor.debug.xcconfig */,
+				39E479B551B3A4C9C0EEFCB6 /* Pods-ImageStyleTransor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A955B7FD4CA36AA591FF6A5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFA49748DFC8D7E38BA108E /* Pods_ImageStyleTransor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00D65C9A21771590008ABC17 /* ImageStyleTransor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D65CAF21771591008ABC17 /* Build configuration list for PBXNativeTarget "ImageStyleTransor" */;
+			buildPhases = (
+				6B37E116DD3D719B0B493BE9 /* [CP] Check Pods Manifest.lock */,
+				00D65C9721771590008ABC17 /* Sources */,
+				00D65C9821771590008ABC17 /* Frameworks */,
+				00D65C9921771590008ABC17 /* Resources */,
+				69693CED9AB77BF25F7E240B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageStyleTransor;
+			productName = ImageStyleTransor;
+			productReference = 00D65C9B21771590008ABC17 /* ImageStyleTransor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00D65C9321771590008ABC17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = ChenFeng;
+				TargetAttributes = {
+					00D65C9A21771590008ABC17 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 00D65C9621771590008ABC17 /* Build configuration list for PBXProject "ImageStyleTransor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00D65C9221771590008ABC17;
+			productRefGroup = 00D65C9C21771590008ABC17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00D65C9A21771590008ABC17 /* ImageStyleTransor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00D65C9921771590008ABC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D65CAB21771591008ABC17 /* LaunchScreen.storyboard in Resources */,
+				00D65CA821771591008ABC17 /* Assets.xcassets in Resources */,
+				00D65CA621771590008ABC17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69693CED9AB77BF25F7E240B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ImageStyleTransor/Pods-ImageStyleTransor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Gallery/Gallery.framework",
+				"${BUILT_PRODUCTS_DIR}/Lumina/Lumina.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lumina.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageStyleTransor/Pods-ImageStyleTransor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B37E116DD3D719B0B493BE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageStyleTransor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00D65C9721771590008ABC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D65CC921784552008ABC17 /* STMuseMLModel.mlmodel in Sources */,
+				008CACCB217DA9390086EE6C /* STModel.swift in Sources */,
+				00D65CED21797EFC008ABC17 /* StyleTransferInput.swift in Sources */,
+				00D65CCD21784552008ABC17 /* STWaveMLModel.mlmodel in Sources */,
+				00D65CCA21784552008ABC17 /* STPrincessMLModel.mlmodel in Sources */,
+				00D65CD021785E78008ABC17 /* UIImage+ML.swift in Sources */,
+				00BD998C2181AB38007112BA /* STMosaic.mlmodel in Sources */,
+				00D65CF0217994F9008ABC17 /* UIImage+Resize.swift in Sources */,
+				00D65C9F21771590008ABC17 /* AppDelegate.swift in Sources */,
+				00D65CF22179B835008ABC17 /* STStarryNight.mlmodel in Sources */,
+				00D65CCC21784552008ABC17 /* STUdnieMLModel.mlmodel in Sources */,
+				00D65CB321784128008ABC17 /* StyleTransferManager.swift in Sources */,
+				00BD998D2181AB38007112BA /* STUdnie.mlmodel in Sources */,
+				00D65CF42179D909008ABC17 /* GaleryViewController.swift in Sources */,
+				00BD998B2181AB38007112BA /* STCandy.mlmodel in Sources */,
+				00D65CCB21784552008ABC17 /* STScreamMLModel.mlmodel in Sources */,
+				00D65CC821784552008ABC17 /* STShipwreckMLModel.mlmodel in Sources */,
+				00D65CA121771590008ABC17 /* EditorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00D65CA421771590008ABC17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D65CA521771590008ABC17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00D65CA921771591008ABC17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D65CAA21771591008ABC17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00D65CAD21771591008ABC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00D65CAE21771591008ABC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00D65CB021771591008ABC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE9B3B7A925D285E116D26C /* Pods-ImageStyleTransor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X25XUZLKNX;
+				INFOPLIST_FILE = ImageStyleTransor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALiPay.ImageStyleTransor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00D65CB121771591008ABC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E479B551B3A4C9C0EEFCB6 /* Pods-ImageStyleTransor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X25XUZLKNX;
+				INFOPLIST_FILE = ImageStyleTransor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALiPay.ImageStyleTransor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00D65C9621771590008ABC17 /* Build configuration list for PBXProject "ImageStyleTransor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D65CAD21771591008ABC17 /* Debug */,
+				00D65CAE21771591008ABC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D65CAF21771591008ABC17 /* Build configuration list for PBXNativeTarget "ImageStyleTransor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D65CB021771591008ABC17 /* Debug */,
+				00D65CB121771591008ABC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00D65C9321771590008ABC17 /* Project object */;
+}
