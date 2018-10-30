@@ -49,7 +49,6 @@ class EditorViewController: UIViewController{
     //method
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -57,6 +56,19 @@ class EditorViewController: UIViewController{
         self.setUpGaussianBlurBg()
         self.setUpEditor()
         self.setUpUICollectionView()
+        self.setUpNavigation()
+    }
+    
+    private func setUpNavigation (){
+        let back = UIButton.init();
+        back.setImage(UIImage.init(named: "back"), for: .normal)
+        self.view.addSubview(back)
+        back.snp.makeConstraints { (make) in
+            make.left.equalTo(self.view).offset(12)
+            make.top.equalTo(self.view).offset(64)
+            make.width.height.equalTo(24)
+        }
+        back.addTarget(self, action: #selector(self.dismissEditor), for: .touchUpInside)
     }
     
     private func setUpUICollectionView(){
@@ -94,7 +106,7 @@ class EditorViewController: UIViewController{
         self.view.addSubview(background)
         
         //毛玻璃
-        let blurEffect = UIBlurEffect(style: .regular)
+        let blurEffect = UIBlurEffect(style: .dark)
         let blurView = UIVisualEffectView(effect: blurEffect)
         blurView.frame.size = CGSize(width: view.frame.width, height: view.frame.height)
         self.view.addSubview(blurView)
@@ -122,6 +134,12 @@ class EditorViewController: UIViewController{
         editor.addSubview(loading)
         loading.snp.makeConstraints { (make) in
             make.center.equalTo(editor)
+        }
+    }
+    
+    @objc func dismissEditor(){
+        dismiss(animated: true) {
+            
         }
     }
 }
